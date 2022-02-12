@@ -3,7 +3,7 @@ from Evaluator import *
 import pdb
 
 def getGTBoxes(cfg, GTFolder):
-
+    # 返回指定的文件夹包含的文件或文件夹的名字的列表。
     files = os.listdir(GTFolder)
     files.sort()
 

@@ -1,0 +1,27 @@
+chapter1/model-evaluation/data/results/class2.png
+chapter1/model-evaluation/data/results/class1.png
+chapter1/model-evaluation/lib/__pycache__/Evaluator.cpython-39.pyc
+*.png
+*.pyc
+*.ttf
+__pycache__/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/

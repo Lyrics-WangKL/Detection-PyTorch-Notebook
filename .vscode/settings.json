@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./chapter1/model-evaluation/lib"
+    ]
+}
