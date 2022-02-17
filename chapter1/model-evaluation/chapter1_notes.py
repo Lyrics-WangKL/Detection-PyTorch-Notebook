@@ -14,9 +14,9 @@
 #Function List: xxx
 '''
 
-
+# 当前工作路径 文件路径 绝对路径 辨析
 import os
-
+import yaml
 print('os.path.dirname(__file__): \n', os.path.dirname(__file__))
 
 print('os.getcwd(): \n', os.getcwd())
@@ -34,3 +34,5 @@ with open(conf_path, 'r', encoding='utf-8') as f:
     data=f.read()
 # 使用yaml.load加载YAML文件，然后以python的数据格式方式进行展示，从而方便使用python对YAML中的数据进行读取操作
 cfg = yaml.load(data,Loader=yaml.FullLoader)
+
+print(cfg["iouThreshold"],cfg["colors"][0])
